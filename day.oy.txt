@@ -1,0 +1,5 @@
+User_input = input("Enter Day:")
+if User_input == 'Saturday' or User_input == 'Sunday':
+   print("Today is your off")
+else:
+   print( )

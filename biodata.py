@@ -1,0 +1,11 @@
+inputname=input( "Enter Your Name")
+inputfathername=input( "Enter Your Father Name")
+inputdesignation=input( "Enter Your Designation")
+inputnationality=input( "Enter Your Nationality")
+inputreligion=input( "Enter Your Religion")
+with open("Bio","w") as f : # file need to be closed as already open file 
+    f.write(inputname)   
+    f.write(inputfathername)
+    f.write(inputdesignation) 
+    f.write(inputnationality)
+    f.write(inputreligion)
